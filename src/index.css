@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+
+/* Global base styles */
+@layer base {
+  html, body, #root { height: 100%; }
+  body { @apply bg-white text-slate-900 font-sans; } /* full-page light background */
+}
+
+/* (Optional) smooth scrolling for anchor links */
+html { scroll-behavior: smooth; }
